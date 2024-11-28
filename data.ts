@@ -228,6 +228,23 @@ export const learningData = [
   },
 ];
 
+export const practiceCardData = [
+  {
+    header: "Practice Mode",
+    content:
+      "Start practicing now and gain up to 100 coins for every correct answer",
+    image: "/assets/research-paper.svg",
+    position: false,
+  },
+  {
+    header: "Exam Mode",
+    content:
+      "Prepare for your exam by answering questions to unlock free coins ",
+    image: "/assets/online-test.svg",
+    position: true,
+  },
+];
+
 export const forgotPasswordHeader = "Reset Password";
 
 export const ForgotPasswordText =

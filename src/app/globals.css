@@ -197,3 +197,23 @@ body {
   background-repeat: no-repeat;
   width: 100%;
 }
+
+.practice_card {
+  background: radial-gradient(
+    66.3% 66.3% at 50.2% 50%,
+    #98b6e2 0%,
+    #82a9e4 0.01%,
+    #7ea7e5 28%,
+    #7ba5e5 43.5%,
+    #5993ea 85.5%,
+    #498aec 100%
+  );
+  box-shadow:
+    rgba(0, 0, 0, 0.1) 0px 2px 4px,
+    hsla(216, 53%, 36%, 1) 6px 8px 0px;
+}
+.practice_card_position {
+  box-shadow:
+    rgba(0, 0, 0, 0.1) 0px 2px 4px,
+    hsl(var(--light-orange-foreground)) 6px 8px 0px;
+}

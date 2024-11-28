@@ -6,12 +6,29 @@
 import React from "react";
 import PageLayout from "../PageLayout";
 import PracticeHeaderLayout from "@/components/PracticeHeaderLayout/PracticeHeaderLayout";
+import { CustomHeader } from "@/components/CustomHeader/CustomHeader";
+import CustomText from "@/components/CustomText/CustomText";
+import PracticeCardContainer from "@/components/PracticeCardContainer/PracticeCardContainer";
 
 const page = () => {
   return (
     <PageLayout>
       <>
-        <PracticeHeaderLayout header="Practice" link="/" />
+        <PracticeHeaderLayout header="Practice" />
+        <section className="px-4 pt-[5rem] pb-32">
+          <CustomHeader
+            text="Practice or Prepare for Exam?"
+            weight="font-bold"
+          />
+          <CustomText
+            text="Take short quizzes or full tests to get you ready for your Examination"
+            size="text-sm"
+            customStyle="mb-8 mt-4"
+          />
+          <div className="flex gap-4 flex-col items-center">
+            <PracticeCardContainer />
+          </div>
+        </section>
       </>
     </PageLayout>
   );

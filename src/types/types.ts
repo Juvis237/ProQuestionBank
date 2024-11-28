@@ -118,8 +118,14 @@ export type LearningOptionCardProps = {
   isDisplay?: boolean;
 };
 
-
 export type PracticeHeaderLayoutProps = {
   header: string;
-  link: string;
+  link?: string;
+}
+
+export type PracticeCardProps = {
+  image: string;
+  header: string;
+  content: string;
+  position?: boolean
 }
