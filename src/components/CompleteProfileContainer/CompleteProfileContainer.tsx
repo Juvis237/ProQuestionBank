@@ -1,8 +1,8 @@
 import React from "react";
 import { Button } from "../ui/button";
 import Image from "next/image";
-import { CustomHeader } from "../CustomHeader/CustomHeader";
 import CustomText from "../CustomText/CustomText";
+import CustomHeader from "../CustomHeader/CustomHeader";
 
 const CompleteProfileContainer = () => {
   return (

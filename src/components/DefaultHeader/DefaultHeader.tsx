@@ -1,6 +1,6 @@
 import React from "react";
-import { CustomHeader } from "../CustomHeader/CustomHeader";
 import { ChevronLeftIcon } from "@heroicons/react/24/outline";
+import CustomHeader from "../CustomHeader/CustomHeader";
 
 const DefaultHeader = () => {
   return (

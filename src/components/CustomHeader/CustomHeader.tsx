@@ -1,7 +1,7 @@
 import { CustomHeaderProps } from "@/types/types";
 import React from "react";
 
-export const CustomHeader: React.FC<CustomHeaderProps> = ({
+const CustomHeader: React.FC<CustomHeaderProps> = ({
   text,
   color,
   size,
@@ -19,3 +19,5 @@ export const CustomHeader: React.FC<CustomHeaderProps> = ({
     </h2>
   );
 };
+
+export default CustomHeader;

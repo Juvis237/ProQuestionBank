@@ -1,6 +1,6 @@
 import React from "react";
 import { learningData } from "../../../data";
-import { CustomHeader } from "../CustomHeader/CustomHeader";
+import CustomHeader from "../CustomHeader/CustomHeader";
 import LearningOptionCard from "../LearningOptionCard/LearningOptionCard";
 
 const LearningContainer = () => {

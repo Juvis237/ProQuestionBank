@@ -1,6 +1,6 @@
 import React from "react";
-import { CustomHeader } from "../CustomHeader/CustomHeader";
 import QuestionCard from "../QuestionCard/QuestionCard";
+import CustomHeader from "../CustomHeader/CustomHeader";
 
 const QuestionContainer = () => {
   return (
