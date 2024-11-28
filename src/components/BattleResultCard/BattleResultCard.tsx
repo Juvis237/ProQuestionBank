@@ -1,7 +1,7 @@
 import React from "react";
-import { CustomHeader } from "../CustomHeader/CustomHeader";
 import { Button } from "../ui/button";
 import BattleProfileResult from "../BattleProfileResult/BattleProfileResult";
+import CustomHeader from "../CustomHeader/CustomHeader";
 
 const BattleResultCard = () => {
   return (

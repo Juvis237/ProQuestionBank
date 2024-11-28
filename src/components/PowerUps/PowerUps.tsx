@@ -1,9 +1,9 @@
 import React from "react";
-import { CustomHeader } from "../CustomHeader/CustomHeader";
 import CustomText from "../CustomText/CustomText";
 import { powerupsData } from "../../../data";
 import PowerCard from "../PowerCard/PowerCard";
 import { XMarkIcon } from "@heroicons/react/24/outline";
+import CustomHeader from "../CustomHeader/CustomHeader";
 
 const PowerUps = () => {
   return (

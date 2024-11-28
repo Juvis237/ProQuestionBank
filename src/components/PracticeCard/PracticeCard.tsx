@@ -1,5 +1,5 @@
 import React from "react";
-import { CustomHeader } from "../CustomHeader/CustomHeader";
+import CustomHeader from "../CustomHeader/CustomHeader";
 import CustomText from "../CustomText/CustomText";
 import { Button } from "../ui/button";
 import Image from "next/image";

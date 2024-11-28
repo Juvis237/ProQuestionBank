@@ -1,9 +1,9 @@
 import React from "react";
-import { CustomHeader } from "../CustomHeader/CustomHeader";
 import CustomText from "../CustomText/CustomText";
 import PracticeResultCardDetail from "../PracticeResultCardDetail/PracticeResultCardDetail";
 import { Button } from "../ui/button";
 import { PracticeResultCardData } from "../../../data";
+import CustomHeader from "../CustomHeader/CustomHeader";
 
 const PracticeResultCard = () => {
   return (

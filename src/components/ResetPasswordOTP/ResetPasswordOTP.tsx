@@ -16,9 +16,9 @@ import { Button } from "../ui/button";
 import Link from "next/link";
 import { ArrowLeftIcon } from "@radix-ui/react-icons";
 import FormRedirect from "../FormRedirect/FormRedirect";
-import { CustomHeader } from "../CustomHeader/CustomHeader";
 import CustomText from "../CustomText/CustomText";
 import { toast } from "@/hooks/use-toast";
+import CustomHeader from "../CustomHeader/CustomHeader";
 
 const ResetPasswordOTP = () => {
   const [mins, setMins] = useState(0);

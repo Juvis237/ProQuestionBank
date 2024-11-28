@@ -1,9 +1,9 @@
 import React from "react";
-import { CustomHeader } from "../CustomHeader/CustomHeader";
 import { Button } from "../ui/button";
 import Link from "next/link";
 import { ChevronLeftIcon } from "@heroicons/react/24/outline";
 import { PracticeHeaderLayoutProps } from "@/types/types";
+import CustomHeader from "../CustomHeader/CustomHeader";
 
 const PracticeHeaderLayout: React.FC<PracticeHeaderLayoutProps> = ({
   header,

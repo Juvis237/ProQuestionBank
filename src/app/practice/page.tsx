@@ -6,7 +6,7 @@
 import React from "react";
 import PageLayout from "../PageLayout";
 import PracticeHeaderLayout from "@/components/PracticeHeaderLayout/PracticeHeaderLayout";
-import { CustomHeader } from "@/components/CustomHeader/CustomHeader";
+import CustomHeader from "@/components/CustomHeader/CustomHeader";
 import CustomText from "@/components/CustomText/CustomText";
 import PracticeCardContainer from "@/components/PracticeCardContainer/PracticeCardContainer";
 

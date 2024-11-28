@@ -17,10 +17,10 @@ import {
 import { Button } from "../ui/button";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
-import { CustomHeader } from "../CustomHeader/CustomHeader";
 import { Input } from "../ui/input";
 import { loginSchema } from "@/schema/logingSchema";
 import { LoginSchema } from "@/types/types";
+import CustomHeader from "../CustomHeader/CustomHeader";
 
 const LoginForm = () => {
   const router = useRouter();

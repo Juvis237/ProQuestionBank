@@ -1,10 +1,10 @@
 import Image from "next/image";
 import React from "react";
-import { CustomHeader } from "../CustomHeader/CustomHeader";
 import CustomText from "../CustomText/CustomText";
 import { Button } from "../ui/button";
 import { ArrowRightIcon } from "@heroicons/react/24/outline";
 import { LearningOptionCardProps } from "@/types/types";
+import CustomHeader from "../CustomHeader/CustomHeader";
 
 const LearningOptionCard: React.FC<LearningOptionCardProps> = ({
   image,

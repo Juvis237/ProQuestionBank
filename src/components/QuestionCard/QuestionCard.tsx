@@ -1,8 +1,8 @@
 import React from "react";
-import { CustomHeader } from "../CustomHeader/CustomHeader";
 import CustomText from "../CustomText/CustomText";
 import Image from "next/image";
 import { QuestionCardProps } from "@/types/types";
+import CustomHeader from "../CustomHeader/CustomHeader";
 
 const QuestionCard: React.FC<QuestionCardProps> = ({
   isCardDisplay,

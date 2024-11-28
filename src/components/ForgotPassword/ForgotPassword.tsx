@@ -15,8 +15,8 @@ import {
 import { Input } from "../ui/input";
 import { Button } from "../ui/button";
 import { forgotPasswordHeader, ForgotPasswordText } from "../../../data";
-import { CustomHeader } from "../CustomHeader/CustomHeader";
 import CustomText from "../CustomText/CustomText";
+import CustomHeader from "../CustomHeader/CustomHeader";
 
 const ForgotPassword = () => {
   const forgotPasswordSchema = z.object({
