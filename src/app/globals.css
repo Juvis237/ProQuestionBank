@@ -217,3 +217,8 @@ body {
     rgba(0, 0, 0, 0.1) 0px 2px 4px,
     hsl(var(--light-orange-foreground)) 6px 8px 0px;
 }
+.battle_card_position {
+  box-shadow:
+    rgba(0, 0, 0, 0.1) 0px 2px 4px,
+    hsl(var(--light-orange-foreground)) 2px 8px 0px;
+}
