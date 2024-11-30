@@ -132,7 +132,7 @@ export type PracticeCardProps = {
 
 export type MathRendererProps = {
   equation: string;
-  displayMode?: boolean; // True for block (display) mode, false for inline
+  displayMode?: boolean;
 };
 
 export type AchievementCardProps = {
