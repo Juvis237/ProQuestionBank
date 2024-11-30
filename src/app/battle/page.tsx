@@ -8,11 +8,13 @@ import React from "react";
 import PageLayout from "../PageLayout";
 import CustomText from "@/components/CustomText/CustomText";
 import CustomHeader from "@/components/CustomHeader/CustomHeader";
+import BattleModule from "@/components/BattleModule/BattleModule";
 
 const page = () => {
+  const battleModules = new Array(10).fill(null); // Creates an array of 10 elements
   return (
     <PageLayout>
-      <div className="bg-primary">
+      <div className="bg-primary min-h-screen relative">
         <section className="px-4 pt-5 pb-6">
           <CustomHeader
             text="BATTLE LEAGUE"
@@ -28,6 +30,18 @@ const page = () => {
           />
           <div className="flex gap-4 flex-col items-center"></div>
         </section>
+        <div className="bg-white px-6 py-6 pb-32 rounded-tr-3xl rounded-tl-3xl min-h-[80vh] absolute">
+          <div className="w-full grid grid-cols-1 gap-6">
+            {battleModules.map((_, index) => (
+              <div
+                key={index}
+                className={`flex justify-${index % 2 === 0 ? "start" : "end"} w-full`}
+              >
+                <BattleModule />
+              </div>
+            ))}
+          </div>
+        </div>
       </div>
     </PageLayout>
     // <>

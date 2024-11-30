@@ -245,6 +245,29 @@ export const practiceCardData = [
   },
 ];
 
+export const achievementCardData = [
+  {
+    image: "/assets/achievements.svg",
+    text: "Achievements",
+  },
+  {
+    image: "/assets/preference.svg",
+    text: "Preferences",
+  },
+  {
+    image: "/assets/reference.svg",
+    text: "Streaks",
+  },
+  {
+    image: "/assets/reference.svg",
+    text: "Referrals",
+  },
+  {
+    image: "/assets/logout.svg",
+    text: "Logout",
+  },
+];
+
 export const forgotPasswordHeader = "Reset Password";
 
 export const ForgotPasswordText =

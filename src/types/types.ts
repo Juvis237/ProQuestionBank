@@ -121,11 +121,21 @@ export type LearningOptionCardProps = {
 export type PracticeHeaderLayoutProps = {
   header: string;
   link?: string;
-}
+};
 
 export type PracticeCardProps = {
   image: string;
   header: string;
   content: string;
-  position?: boolean
-}
+  position?: boolean;
+};
+
+export type MathRendererProps = {
+  equation: string;
+  displayMode?: boolean; // True for block (display) mode, false for inline
+};
+
+export type AchievementCardProps = {
+  image: string;
+  text: string;
+};
