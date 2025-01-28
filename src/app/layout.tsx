@@ -5,7 +5,7 @@ import { nunito } from "../lib/font";
 import { Toaster } from "@/components/ui/toaster";
 
 export const metadata: Metadata = {
-  title: "Pro-Delivery",
+  title: "Pro-Assistant",
   description:
     "ProAssistant is an AI-powered learning companion that provides personalized study support, gamified motivation, accountability, and emotional encouragement to help students stay engaged and on track with their academic goals.",
   generator: "Next.js",
