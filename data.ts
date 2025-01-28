@@ -21,6 +21,7 @@ export const onBoardingDataSet = [
   // },
 ];
 
+import { questionBox } from "@/components/QuestionBankBoxes";
 export const trialLevels = [
   {
     name: "beginner",
@@ -242,6 +243,27 @@ export const practiceCardData = [
       "Prepare for your exam by answering questions to unlock free coins ",
     image: "/assets/online-test.svg",
     position: true,
+  },
+];
+
+export const sampleQuestionData: questionBox[] = [
+  {
+    code: "PHY 211",
+    title: "Intro to Physics",
+    id: "12578",
+    image: "/assets/research-paper.svg",
+  },
+  {
+    code: "CHM 311",
+    title: "Fundamentals of Chemistry",
+    id: "1278",
+    image: "/assets/online-test.svg",
+  },
+  {
+    code: "MAT 201",
+    title: "Mathematics for Engineers",
+    id: "2578",
+    image: "/assets/student-stress.svg",
   },
 ];
 

@@ -1,3 +1,4 @@
+"use client";
 // import AnswerBTN from "@/components/AnswerBTN/AnswerBTN";
 // import AnswerModal from "@/components/AnswerModal/AnswerModal";
 // import PracticeHeader from "@/components/PracticeHeader/PracticeHeader";
@@ -9,19 +10,37 @@
 // import CustomModal from "@/components/CustomModal/CustomModal";
 
 // import BattleResult from "@/components/BattleResult/BattleResult";
-import CompleteProfileContainer from "@/components/CompleteProfileContainer/CompleteProfileContainer";
-import LearningContainer from "@/components/LearningContainer/LearningContainer";
+
+import CustomHeader from "@/components/CustomHeader/CustomHeader";
+import CustomText from "@/components/CustomText/CustomText";
+
 import NavBottomBar from "@/components/NavBottomBar/NavBottomBar";
 import NavTopBar from "@/components/NavTopBar/NavTopBar";
+import PracticeCard from "@/components/PracticeCard/PracticeCard";
+import { sampleQuestionData } from "../../data";
+import QuestionBox from "@/components/QuestionBankBoxes";
 
 export default function Home() {
   return (
     // remove relative from this div and uncomment this code
-    <div className="relative">
+    <div>
       <NavTopBar />
-      <div className="px-4 pb-32">
-        <CompleteProfileContainer />
-        <LearningContainer />
+      <div className="px-4 pb-32  mt-[90px] ">
+        {/*<CompleteProfileContainer />*/}
+        {/*<LearningContainer />*/}
+        <PracticeCard
+          content="Get All your study materials in one place with Pro Question Bank"
+          header="Question Bank"
+          image="/assets/research-paper.svg"
+        />
+        <section className="px-4 pt-[2rem] pb-32">
+          <CustomHeader text="Popular Courses" weight="font-bold" />
+          <div className="grid grid-cols-2 gap-4 p-4 md:grid-cols-2 lg:grid-cols-3">
+            {sampleQuestionData.map((box) => {
+              return <QuestionBox question={box} />;
+            })}
+          </div>
+        </section>
       </div>
       {/* <TrialLevelContainer /> */}
       {/* <div className="px-4 ">
