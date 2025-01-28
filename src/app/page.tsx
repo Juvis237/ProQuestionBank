@@ -12,7 +12,6 @@
 // import BattleResult from "@/components/BattleResult/BattleResult";
 
 import CustomHeader from "@/components/CustomHeader/CustomHeader";
-import CustomText from "@/components/CustomText/CustomText";
 
 import NavBottomBar from "@/components/NavBottomBar/NavBottomBar";
 import NavTopBar from "@/components/NavTopBar/NavTopBar";

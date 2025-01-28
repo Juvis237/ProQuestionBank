@@ -9,8 +9,7 @@ import React from "react";
 import PageLayout from "../../PageLayout";
 import CustomText from "@/components/CustomText/CustomText";
 import CustomHeader from "@/components/CustomHeader/CustomHeader";
-import BattleModule from "@/components/BattleModule/BattleModule";
-import { useParams } from "next/navigation";
+
 import withTabs from "@/components/withTabs/page";
 
 const WrappedComponent = withTabs(({ tab1, tab2, tab1Label, tab2Label }) => (
@@ -50,21 +49,20 @@ const ViewQuestion = () => {
   );
 };
 
-const viewSolution = () => {};
 const page = () => {
-  const { id } = useParams(); // Get the `id` from the URL
+  // const { id } = useParams(); // Get the `id` from the URL
   return (
     <PageLayout>
       <div className="bg-primary min-h-screen relative">
         <section className="px-4 pt-5 pb-6">
           <CustomHeader
-            text="BATTLE LEAGUE"
+            text="Question Viewer"
             weight="font-bold"
             color="text-white"
             customStyle="text-center"
           />
           <CustomText
-            text="You can now compete with friends to gain more coins and receive awards by battling in a league"
+            text="Just Testing the Waters out"
             size="text-sm"
             color="text-white"
             customStyle="mt-4 text-center"
