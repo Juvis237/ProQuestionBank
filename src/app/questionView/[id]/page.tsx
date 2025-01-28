@@ -12,12 +12,14 @@ import CustomHeader from "@/components/CustomHeader/CustomHeader";
 
 import withTabs from "@/components/withTabs/page";
 
-const WrappedComponent = withTabs(({ tab1, tab2, tab1Label, tab2Label }) => (
-  <div>
-    {tab1}
-    {tab2}
-  </div>
-));
+const WrappedComponent = withTabs(
+  ({ tab1, tab2, tab1Label = "Questions", tab2Label = "Solutions" }) => (
+    <div>
+      {tab1}
+      {tab2}
+    </div>
+  ),
+);
 
 const ViewQuestion = () => {
   // Example image URLs (replace with your actual image URLs)
